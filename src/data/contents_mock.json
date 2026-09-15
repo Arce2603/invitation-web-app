@@ -1,23 +1,23 @@
 
 {
-    "initials": "A&G",
-    "names": "Arcelia & Greg",
-    "date": "15 de enero 2027",
-    "date_formatted": "15.01.2027",
+    "initials": "P&P",
+    "names": "Pip1 & Pip2",
+    "date": "01.01.1960",
+    "date_formatted": "01.01.1960",
     "event_info": [
         {
             "event": "Misa", 
             "time": "- 5:30pm -",
-            "place": "Parroquia El Señor de la Misericordia",
-            "address": "Pueblo Serena, Carretera Nacional 500, 67350 Monterrey",
-            "url": "https://maps.app.goo.gl/5FeRrT7yKAsY2LwU8"
+            "place": "A Name for a Place",
+            "address": "Address Street Ave N #num, ZIP 1234, City, State ",
+            "url": ""
         }, 
         {
             "event": "Salón",
             "time": "7:00pm - 12:30am",
-            "place": "Verité Social Venue",
-            "address": "Carretera Nacional 268, Villas La Rioja, 64988 Monterrey",
-            "url": "https://maps.app.goo.gl/QVKvPh4hn4UW6VHw8"
+            "place": "A Name for a Place",
+            "address": "Address Street Ave N #num, ZIP 1234, City, State ",
+            "url": ""
         }
     ],
     "event_reminders": [

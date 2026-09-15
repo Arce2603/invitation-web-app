@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = (props)=> (
     <div className="footer">
-        <h1 className="footer_title"> {props.initials}</h1>
+        <h1 className="footer_title"> {props.initials} {props.date}</h1>
     </div>
 );
 

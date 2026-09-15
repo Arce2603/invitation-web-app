@@ -9,7 +9,13 @@ import our_photo from '../assets/our_photo.png'
 import farewell from '../assets/farewell_photo.png'
 import {ContainerType} from '../data/conainter_type'
 
-const data = require('../data/contents.json');
+let data;
+try {
+    data = require('../data/contents.json');
+} catch(error){
+    console.log(error.code);
+    data = require('../data/contents_mock.json');
+}
 
 export default class BodaApp extends React.Component{
     render(){
@@ -17,11 +23,11 @@ export default class BodaApp extends React.Component{
             <div className="body-background">        
                 <Header initials={data.initials}/>
                 <PhotoBanner image={our_photo} text={data.names}/>
-                <BoxContainer containerType={ContainerType.FECHA}/>
+                <BoxContainer containerType={ContainerType.FECHA} date={data.date}/>
                 <InvitationInfo event_info={data.event_info} event_reminders={data.event_reminders}/>
                 <BoxContainer containerType={ContainerType.INFO}/>
                 <PhotoBanner image={farewell}/>
-                <Footer initials='G&A 2027.01.15'/>
+                <Footer initials={data.initials} date={data.date_formatted}/>
             </div>
         );
     }

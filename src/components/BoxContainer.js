@@ -5,12 +5,12 @@ import {ContainerType} from '../data/conainter_type'
 
 const BoxContainer = (props)=> (
         <div className="banner">
-            {getContainerType(props.containerType)}
+            {getContainerType(props.containerType, props.date)}
         </div>
     );
 
-const getContainerType = (type) => {
-    if (type === ContainerType.FECHA) return <FechaContainer date='15 de enero'/>
+const getContainerType = (type, date) => {
+    if (type === ContainerType.FECHA) return <FechaContainer date={date}/>
     else return <FarewellContainer/>
 
 };
