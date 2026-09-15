@@ -1,0 +1,54 @@
+.banner {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;  
+    background-image: url('../assets/star_bckg.png');
+    background-position: center;
+    background-size: auto;
+    background-repeat: round;
+    background-attachment: fixed;
+    padding: 5rem;
+}
+
+.fecha_container {
+    font-family: "Inria Serif", serif;
+    font-size: 3.6rem;
+    font-weight: 400;
+}
+
+.white_container {
+    border: 6px solid #FFFFFF;
+    background-color: #222B33;
+    align-content: center;
+    width:70%;
+}
+
+.pink_container {
+    border: 2px solid #FFD1E7;
+    margin: 3px;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.yellow_container {
+    border: 2px solid #686B06;
+    background-color: #222B33;
+    align-content: center;
+    height: 14.6rem;
+    font-size: 2.8rem;
+    text-align: center;
+    width:70%;
+}
+
+.info_container_emphasize {
+    font-family: "Italianno", cursive;
+    font-size: 4.0rem;
+    font-weight: 400;
+    font-style: normal;
+    margin:0%;
+}
+
+.info_container {
+    margin: 0%;
+    padding-top: 2rem;
+}

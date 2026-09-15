@@ -1,0 +1,24 @@
+body {
+    font-family: Inter;
+    color: white;
+    font-size: 1.6rem;
+    background-color: #222B33;
+    text-align: center;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+h1 {
+  margin: 0;
+}
+
+.icon_text {
+  align-content: center;
+  display: flex; 
+  justify-content: center;
+  gap: 8px;
+  align-items: center;
+}
+
+// Inter font https://www.google.com/search?q=download+inter+font+for+webapp+visual+studio&rlz=1C1CHBF_esMX862MX862&oq=download+inter+font+for+webapp+visual+studio&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQIRgKGKABMgkIAhAhGAoYoAEyCQgDECEYChigATIJCAQQIRgKGKABMgkIBRAhGAoYoAEyBwgGECEYqwLSAQkxMjMxMWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
